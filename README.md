@@ -11,3 +11,6 @@ Below to mount NAS automagically using fstab
 Both option above use user/password stored in smbcreds in following format
 username=USERNAME
 password=PASSWORD
+
+# To Start a container
+docker compose -f <CONTAINER_NAME>.yaml up -d
